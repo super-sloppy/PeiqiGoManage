@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PeiqiGoManage:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PeiqiGoManage.war">
+      <element id="artifact" artifact-name="PeiqiGoManage:war exploded" />
+    </root>
+  </artifact>
+</component>

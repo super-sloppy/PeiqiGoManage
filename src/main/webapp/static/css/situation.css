@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+#situation{
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 180px;
+    width: 330px;
+    background: #b6b7be;
+}
+#situation #box1{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 120px;
+    height: 250px;
+    background: #696969;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #2e2e2e;
+    text-align: center;
+    vertical-align: middle;
+}
+#situation #box2{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 120px;
+    height: 250px;
+    background: #696969;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #2e2e2e;
+    text-align: center;
+    vertical-align: middle;
+}
+#situation #box3{
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    width: 120px;
+    height: 250px;
+    background: #696969;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #2e2e2e;
+    text-align: center;
+    vertical-align: middle;
+}
+#situation #box4{
+    position: absolute;
+    top: 290px;
+    right: 30px;
+    width: 120px;
+    height: 250px;
+    background: #696969;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #2e2e2e;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#situation #box1 img{
+    width: 100px;
+    height: 100px;
+}
+#situation #box2 img{
+    width: 100px;
+    height: 100px;
+}
+#situation #box3 img{
+    width: 100px;
+    height: 100px;
+}
+#situation #box4 img{
+    width: 100px;
+    height: 100px;
+}
+#situation #box1 .box1-text{
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+#situation #box1 #yesterday-num{
+    text-align: center;
+    line-height: 6;
+    color: #FFFFFF;
+}
+#situation #box2 .box2-text{
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+#situation #box2 #yesterday-usekl{
+    text-align: center;
+    line-height: 6;
+    color: #FFFFFF;
+}
+#situation #box3 .box3-text{
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+#situation #box3 #yesterday-user{
+    text-align: center;
+    line-height: 7;
+    color: #FFFFFF;
+}
+#situation #box4 .box4-text{
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+#situation #box4 #yesterday-newuser{
+    text-align: center;
+    line-height: 7;
+    color: #FFFFFF;
+}
+#ann-ques{
+    position: absolute;
+    top: 60px;
+    left: 510px;
+    right: 0;
+    bottom: 0;
+    background: #f8f8f8;
+}
+#ann-ques #announcement{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 330px;
+    bottom: 0;
+    background: #e1e7f0;
+}
+#ann-ques #question{
+    position: absolute;
+    top: 25px;
+    left: 390px;
+    width: 330px;
+    bottom: 0;
+    background: #e1e7f0;
+}
+#ann-ques #announcement .ann{
+    position: absolute;
+    left: 42px;
+    top: 10px;
+    right: 0;
+    height: 20px;
+    color: #000080;
+    font-size: 22px;
+}
+#ann-ques #question .ques{
+    position: absolute;
+    left: 18px;
+    top: 10px;
+    right: 0;
+    height: 20px;
+    color: #000080;
+    font-size: 22px;
+}
+#ann-ques #announcement img{
+    width: 50px;
+    height: 50px;
+    color: #000080;
+}

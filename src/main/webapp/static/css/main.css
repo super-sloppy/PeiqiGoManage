@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+
+}
+a:-webkit-any-link{
+    cursor: pointer;
+}
+
+.header{
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #383840;
+    /*border-bottom: #e6e6e6 solid 1px;*/
+    min-width: 1010px;
+    z-index: 3;
+}
+.header .logo{
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 71px;
+    margin-top: 10px;
+}
+
+.header .logo a{
+    position: absolute;
+    float: left;
+    top: 0;
+    height: 60px;
+    width: 80px;
+}
+.header .logo a.peiqi{
+    background: transparent url(../../static/images/1.png) no-repeat;
+    background-size: 100px 100px;
+    background-position: -10px -17px;
+}
+.header .profile{
+    position: fixed;
+    top: 5px;
+    left: 1125px;
+    width: auto;
+    height: auto;
+
+}
+.header .profile img{
+    vertical-align: middle;
+    border-radius: 50%;
+
+}
+.header .hello{
+    position: absolute;
+    top: 24px;
+    left: 1190px;
+    width: auto;
+    height: auto;
+    line-height: 10px;
+    font-size: 16px;
+    color: #fff !important;
+}
+.header a.logout{
+    position: absolute;
+    right: 5px;
+    width: auto;
+    top: 18px;
+    height: auto;
+    color: #fff;
+    text-decoration: underline;
+}
+#navLwapper{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 180px;
+    bottom: 0;
+    background: #484e5e;
+}
+ul,li{
+    list-style: none;
+}
+
+
+#navLwapper li a{
+    text-decoration: none;
+    height: 55px;
+    line-height: 54px;
+    font-size: 14px;
+    color: #FFFFFF;
+    /*position: relative;*/
+    z-index: 2;
+}
+#navLwapper li .situation{
+    background: url(../../static/images/2.png) transparent no-repeat ;
+    background-size: 120px 120px;
+    background-position: 90px -31px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#navLwapper li .setting{
+    background: url(../../static/images/4.png) transparent no-repeat ;
+    background-size: 120px 120px;
+    background-position: 90px -31px;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#navLwapper li .knowledge{
+    background: url(../../static/images/3.png) transparent no-repeat ;
+    background-size: 120px 120px;
+    background-position: 90px -31px;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#navLwapper li .extend{
+    background: url(../../static/images/5.png) transparent no-repeat ;
+    background-size: 120px 120px;
+    background-position: 90px -31px;
+    position: absolute;
+    top: 165px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#navLwapper li .analysis{
+    background: url(../../static/images/6.png) transparent no-repeat ;
+    background-size: 120px 120px;
+    background-position: 90px -31px;
+    position: absolute;
+    top: 220px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#navLwapper li .update{
+    background: url(../../static/images/7.png) transparent no-repeat ;
+    background-size: 120px 120px;
+    background-position: 90px -31px;
+    position: absolute;
+    top: 275px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
