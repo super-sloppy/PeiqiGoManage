@@ -1,53 +1,52 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 锴
-  Date: 2018/3/3
-  Time: 21:11
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="static/js/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/login.css">
-    <title>登录</title>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/login2.css">
+    <script type="text/javascript" src="static/js/login.js"></script>
 </head>
+
 <body>
-<div class="container text-center">
-    <form:form role="form"  method="post" class="form-horizontal" modelAttribute="TUser">
-        <fieldset>
-            <legend ><span class="glyphicon glyphicon-user"></span><span>&nbsp;&nbsp;用户登录</span></legend>
-            <div class="form-group" id="usernameDiv">
-                <label class="col-md-offset-2 col-md-3 text-right" for="username">用户名：</label>
-                <div class="col-md-4">
-                    <form:input class="form-control" type="text" name="username" id="username" placeholder="请输入用户名" path="userName"/>
-                </div>
-                <div class="col-md-2 text-left">
-                    <span id="usernameSpan"></span>
-                </div>
+<div id="all" align="center">
+    <form:form class="login form-horizontal" role="form"  method="post"  modelAttribute="TUser">
+        <img src="static/images/logo1.png" width="250px"/>
+        <div class="log_term" style="margin-top:60px ">
+            <div class="col-lg-3" style="height: 100%">账号</div>
+            <div class="col-lg-9" style="height: 100%">
+                <form:input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名" path="userName"/>
             </div>
-            <div class="form-group " id="passwordDiv">
-                <label class="col-md-offset-2 col-md-3 text-right" for="password">密码：</label>
-                <div class="col-md-4">
-                    <form:input class="form-control" type="text" name="password" id="password" placeholder="请输入密码" path="userPassword"/>
-                </div>
-                <div class="col-md-2 text-left">
-                    <span id="passwordSpan"></span>
-                </div>
+        </div>
+        <div class="log_term" >
+            <div class="col-lg-3" style="height: 100%">密码</div>
+            <div class="col-lg-9" style="height: 100%">
+                <form:input type="password" class="form-control" name="password" id="password" placeholder="请输入密码" path="userPassword"/>
             </div>
-            <div class="form-group">
-                <button class="btn btn-default btn-success" type="submit" id="submitBtn">登录</button>
-                <button class="btn btn-default btn-warning" type="reset" value="重置">重置</button>
-            </div>
-        </fieldset>
+        </div>
+        <button type="submit" class="btn btn-primary" id="submitBtn" >管理员登录</button>
+        <span style="left: 10px;">忘记密码?</span>
     </form:form>
 
-</div>
 
-<script type="text/javascript" src="static/js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="static/js/login.js"></script>
+</div>
 </body>
+<script>
+    $(document).ready(function () {
+        var w=($(window).height());
+        $("#all").height(w);
+
+    })
+    $(window).resize(function() {
+        var w=($(window).height());
+        $("#all").height(w);
+
+    });
+</script>
+
 </html>
