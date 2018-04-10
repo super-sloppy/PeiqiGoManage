@@ -16,23 +16,25 @@
     <meta http-equiv="Content-Type" content="charset=utf-8"/>
     <meta name="keywords" content="Peiqi,智能"/>
     <meta name="description" content="PeiqiGo智能客服系统">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/main.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/main2.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/bootstrap.css" />
     <decorator:head/>
 </head>
 
 <body>
 <div class="header" >
-    <div class="logo">
-        <a href="" class="peiqi">
+    <a href=""> <div class="logo"><img src="${pageContext.request.contextPath}/static/images/logo.png" /> </div></a>
 
-        </a>
-
+    <div class="user_content">
+        <div class="user_info">
+            <img src="${pageContext.request.contextPath}/static/images/user.jpg"/>
+            <p style="overflow: hidden">欢迎您，admin</p>
+        </div>
+        <div class="user_hidden">
+            <button class="btn btn-info">账户信息</button>
+            <a href="/PeiqiGoManage/"><button class="btn btn-info">切换账户</button></a>
+        </div>
     </div>
-    <div class="profile">
-        <img src="${pageContext.request.contextPath}/static/images/user.jpg"/>
-    </div>
-    <div class="hello">Hello! admin</div>
-    <a href="/PeiqiGoManage/" class="logout">注销</a>
 </div>
 <div id="navLwapper">
     <ul>
@@ -52,17 +54,17 @@
             </a>
         </li>
         <li>
-            <a href="" class="extend">
+            <a href="/PeiqiGoManage/web/extend" class="extend">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;能力扩展
             </a>
         </li>
         <li>
-            <a href="" class="analysis">
+            <a href="/PeiqiGoManage/web/analyze" class="analysis">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据分析
             </a>
         </li>
         <li>
-            <a href="" class="update">
+            <a href="/PeiqiGoManage/web/update" class="update">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版本升级
             </a>
         </li>
